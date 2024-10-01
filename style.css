@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+    /* Fundo preto */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    position: relative;
+    /* permite posicionar os botões de forma absoluta*/
+}
+
+.button {
+    border: 2px solid transparent;
+    cursor: pointer;
+    transition: 0.3s ease-out;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: absolute;
+    /* posicionar os botões de forma independente na pagina  */
+}
+
+.btn1 {
+    /* codigo css para o primeiro botão */
+    background-color: red;
+    border-radius: 50px;
+    padding: 20px 40px;
+    font-size: 24px;
+    top: 20px;
+    left: 20px;
+}
+
+.btn2 {
+    /* codigo css para o Segundo botão*/
+    background-color: blue;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    top: 20px;
+    right: 20px;
+}
+
+.btn2 {
+    /*codigo css para o SEGUNDO botão turm,
+        estamos indo bem*/
+    background-color: #3498db;
+    border-radius: 10px;
+    padding: 15px 30px;
+    font-size: 18px;
+    top: 20px;
+    right: 20px;
+}
+
+.bnt3 {
+    /* aqui vamos usar o border-radius
+    de 20px, e observem o Padcing galera*/
+    background-color: #2ecc71;
+    border-radius: 20px;
+    padding: 0%25px 50px;
+    font-size: 20px;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
